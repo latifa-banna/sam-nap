@@ -1,0 +1,195 @@
+.container-createProduit {
+  padding-left: 50px;
+  transition: 0.5s;
+  background-color: #CCD5AE;
+  width: calc(100% );
+  z-index: 999; 
+  height: 100vh;
+  }
+  .container-createProduit .justify-content-center{
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+  }
+  .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+    width: 610px !important;
+  }
+  .container-createProduit input[type=file]{
+    width: 220px !important;
+  }
+  .container-createProduit .card {
+    margin-top: 20px;
+    border-radius: 15px;
+  }
+  
+  .container-createProduit .card-title {
+    padding-top: 30px;
+    margin-bottom: 20px;
+  }
+  
+  .container-createProduit .form-wrapper {
+    padding: 20px;
+  }
+  
+  .container-createProduit .form-label {
+    margin-top: 10px;
+  }
+  
+  .container-createProduit .form-control {
+    width: 100%;
+    padding: 0.375rem 1rem;
+    font-size: 1rem;
+    line-height: 1;
+    border-radius: 10px;
+  }
+  
+
+  
+  .container-createProduit .select-wrapper {
+    position: relative;
+  }
+  
+  .container-createProduit .select-wrapper::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 6px 0 6px;
+    border-color: #000000 transparent transparent transparent;
+    pointer-events: none;
+  }
+  
+  .container-createProduit .btn {
+    color: #fff;
+    border-radius: 15px;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .container-createProduit .btn-save {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: 1px solid #6C5552;
+    background-color: #6C5552;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  
+  .container-createProduit .btn-save:hover {
+    background-color: #fff;
+    color: #4E3636;
+    border: #4E3636 1px solid;
+  }
+  
+  @media only screen and (max-width: 965px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 580px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 908px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 520px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 845px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 480px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 804px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 400px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 624px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 350px !important;
+    
+    }
+  
+  }
+
+
+  @media only screen and (max-width: 573px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 300px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 523px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 280px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 505px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 260px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 482px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 220px !important;
+    
+    }
+  
+  }
+  @media only screen and (max-width: 444px) {
+
+    .container-createProduit input[type=text],
+  .container-createProduit select,
+  .container-createProduit textarea{
+      width: 200px !important;
+    
+    }
+
+  }

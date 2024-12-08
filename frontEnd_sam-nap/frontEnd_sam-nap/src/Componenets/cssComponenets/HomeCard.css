@@ -1,0 +1,613 @@
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+
+
+
+/* --------------------- two cards ------------------------------------------------------------------- */
+.first-container-two-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+ 
+}
+.container-two-cards{
+  
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25.75rem, 1fr));
+    gap: 24px;
+    justify-items: center;
+    max-width: 100%;
+  
+}
+
+.container-two-cards .card {
+  background-color: #CCD5AE;
+  border-radius: 1.875rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  width: 30.75rem;
+  height: 20.75rem;
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: "Henny Penny", cursive;
+}
+
+
+.container-two-cards .card .button-container .button{
+  background-color: #8B7E74;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+  transition: background-color 0.3s ease;
+  width: 428px;
+  border-bottom-right-radius: 1.875rem;
+  border-bottom-left-radius: 1.875rem;
+ 
+  position: relative;
+  
+}
+
+.container-two-cards .card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+ 
+  position: relative;
+  top: 0px;
+}
+
+.container-two-cards .card img {
+  width: 250px;
+  height: 225px;
+
+  
+}
+
+.container-two-cards .card .button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-two-cards .card:hover h3{
+  color:#41644A;
+}
+.container-two-cards .card:hover .button-container .button {
+  background-color: #5A8F7B;
+}
+.container-two-cards .card:hover{
+  background-color: #D9F8C4;
+}
+
+
+@media only screen and (max-width: 1031px) {
+  .container-two-cards .card {
+    width: 28.75rem;
+  }
+  .container-two-cards .card .button-container .button{
+    width: 396px;
+  }
+}
+@media only screen and (max-width: 977px) {
+  .container-two-cards .card {
+    width: 26.75rem;
+  }
+  .container-two-cards .card .button-container .button{
+    width: 364px;
+  }
+}
+@media only screen and (max-width: 906px) {
+  .container-two-cards .card {
+    width: 24.75rem;
+  }
+  .container-two-cards .card .button-container .button{
+    width: 332px;
+  }
+}
+@media only screen and (max-width: 862px) {
+  
+  .container-two-cards .card {
+    width: 22.75rem;
+  }
+  .container-two-cards .card .button-container .button{
+    width: 300px;
+  }
+  .container-two-cards{
+  
+   display: flex;
+}
+  
+}
+@media only screen and (max-width: 782px) {
+ 
+  .container-two-cards .card {
+    width: 20.75rem;
+  }
+  .container-two-cards .card .button-container .button{
+    width: 268px;
+  }
+}
+@media only screen and (max-width: 716px) {
+ 
+  .container-two-cards .card {
+    width: 18.75rem;
+  }
+  .container-two-cards .card .button-container .button{
+    width: 236px;
+  }
+}
+@media only screen and (max-width: 659px) {
+  .first-container-two-cards{
+    min-height: calc(125vh - 60px);
+  }
+  .container-two-cards{
+  
+    display: grid;
+  
+  }
+  
+}
+
+/* ------------------------------------------------------------------------------------------------------------------ */
+/* --------------------- three cards ------------------------------------------------------------------- */
+.first-container-three-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+}
+.container-three-cards{
+  
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 24px;
+  justify-items: center;
+  max-width: 100%;
+  
+
+}
+
+.container-three-cards .card {
+background-color: #CCD5AE;
+border-radius: 1.875rem;
+box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+width: 25.75rem; 
+height: 24.75rem;
+margin-bottom: 24px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-family: "Henny Penny", cursive;
+}
+
+
+.container-three-cards .card .button-container .button{
+background-color: #8B7E74;
+border: none;
+color: white;
+padding: 15px 32px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 16px;
+cursor: pointer;
+
+transition: background-color 0.3s ease;
+width: 348px;
+border-bottom-right-radius: 1.875rem;
+border-bottom-left-radius: 1.875rem;
+
+position: relative;
+
+}
+
+.container-three-cards .card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+ 
+  position: relative;
+
+}
+
+.container-three-cards .card img {
+  width: 250px;
+  height: 250px;
+  margin-bottom: 30px;
+  
+}
+
+.container-three-cards .card .button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container-three-cards .card:hover{
+ 
+  background-color: #D9F8C4;
+ 
+}
+.container-three-cards .card:hover h3 {
+  color:#41644A;
+ }
+.container-three-cards .card:hover .button-container .button{
+  background-color: #5A8F7B;
+}
+
+@media only screen and (max-width: 1320px) {
+
+  .container-three-cards .card {
+    width: 23.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 316px;
+  }
+  
+}
+@media only screen and (max-width: 1220px) {
+
+  .container-three-cards .card {
+    width: 20.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 268px;
+  }
+  
+}
+
+@media only screen and (max-width: 1120px) {
+
+  .container-three-cards .card {
+    width: 20.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 268px;
+  }
+  
+}
+@media only screen and (max-width: 1072px) {
+  
+  .container-three-cards .card {
+    width: 18.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 236px;
+  }
+  
+}
+@media only screen and (max-width: 984px) {
+  .container-three-cards .card {
+    width: 16.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 204px;
+  }
+}
+@media only screen and (max-width: 880px) {
+  
+  .container-three-cards .card {
+    width: 14.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 172px;
+    position: relative;
+    
+  }
+  .container-three-cards .card img {
+    width: 210px;
+    
+   
+    
+  }
+  
+}
+@media only screen and (max-width: 785px) {
+  
+  .container-three-cards .card {
+    width: 12.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 140px;
+    position: relative;
+    
+  }
+  .container-three-cards .card img {
+    width: 210px;
+    
+   
+    
+  }
+  
+}
+@media only screen and (max-width: 720px) {
+  
+  .container-three-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 140px;
+    position: relative;
+   
+  }
+  .container-three-cards .card img {
+    width: 210px;
+    
+   
+    
+  }
+  
+}
+@media only screen and (max-width: 690px) {
+  
+  .first-container-three-cards{
+    min-height: calc(0vh - 60px);
+  }
+
+  
+ }
+ @media only screen and (max-width: 659px) {
+  
+  .first-container-three-cards{
+    min-height: calc(130vh - 60px);
+  }
+
+  
+ }
+ @media only screen and (max-width: 485px) {
+  .first-container-three-cards{
+    min-height: calc(190vh - 60px);
+  }
+  .container-three-cards{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+
+  .container-three-cards .card {
+    width: 16.75rem;
+  }
+  .container-three-cards .card .button-container .button{
+    width: 204px;
+  }
+ }
+/* ------------------------------------------------------------------------------------------------------------------ */
+/*  ------------------------------------------- four cards ---------------------------------------------------------*/
+.first-container-four-cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75vh;
+  
+}
+
+.container-four-cards{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 24px;
+  max-width: 100%;
+
+}
+.container-four-cards .card {
+  width: 18.2rem;
+  background-color: #CCD5AE;
+  border-radius: 1.875rem;
+  box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.25);
+  margin-bottom: 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.container-four-cards .card:hover{
+ 
+  background-color: #D9F8C4;
+ 
+}
+.container-four-cards .card .button-container .button{
+  background-color: #8B7E74;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  
+  transition: background-color 0.3s ease;
+  width: 228px;
+  border-bottom-right-radius: 1.875rem;
+  border-bottom-left-radius: 1.875rem;
+ 
+
+  font-family: "Henny Penny", cursive;
+
+}
+
+.container-four-cards .card h3 {
+  font-size: 24px;
+  margin-bottom: 12px;
+  font-family: 'Work Sans', sans-serif;
+  font-family: "Exo 2", sans-serif;
+  font-family: "Henny Penny", cursive;
+  position: relative;
+  top: 0px;
+}
+.container-four-cards .card img{
+  width: 250px;
+  height: 250px;
+}
+.container-four-cards .card:hover h3 {
+ color:#41644A;
+}
+
+
+.container-four-cards .button-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.container-four-cards .card:hover .button-container .button {
+  background-color: #5A8F7B;
+}
+
+@media only screen and (max-width: 1268px) {
+  
+  .container-four-cards .card {
+    width: 16.2rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+
+    width: 196px;
+  
+  }
+  
+}
+@media only screen and (max-width: 1136px) {
+  
+  .container-four-cards .card {
+    width: 15.2rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 180px;
+  }
+  
+}
+@media only screen and (max-width: 1080px) {
+  
+  .container-four-cards .card {
+    width: 14.2rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 164px;
+  }
+  .container-four-cards .card img{
+    width: 200px;
+  }
+}
+@media only screen and (max-width: 1005px) {
+  .container-four-cards .card {
+    width: 13.2rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 148px;
+  }
+  .container-four-cards .card img{
+    width: 180px;
+  }
+}
+@media only screen and (max-width: 940px) {
+
+  .container-four-cards .card {
+    width: 12.2rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 132px;
+  }
+  .container-four-cards .card img{
+    width: 160px;
+  }
+}
+@media only screen and (max-width: 877px) {
+  .first-container-four-cards{
+    height: 122vh;
+  }
+
+  .container-four-cards .card {
+    width: 20.2rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 259px;
+  }
+  .container-four-cards .card img{
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 704px) {
+  .first-container-four-cards{
+    height: 125vh;
+  }
+
+  .container-four-cards .card {
+    width: 19.4rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 247px;
+  }
+  .container-four-cards .card img{
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 660px) {
+  .first-container-four-cards{
+    height: 120vh;
+  }
+
+  .container-four-cards .card {
+    width: 19.4rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 247px;
+  }
+  .container-four-cards .card img{
+    width: 220px;
+  }
+}
+@media only screen and (max-width: 644px) {
+  .first-container-four-cards{
+    height: 230vh;
+  }
+
+  
+}
+@media only screen and (max-width: 448px) {
+
+  .container-four-cards .card {
+    width: 17.4rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 216px;
+  }
+  
+}
+@media only screen and (max-width: 347px) {
+
+  .container-four-cards .card {
+    width: 15.4rem;
+   
+  }
+  .container-four-cards .card .button-container .button{
+    width: 182px;
+  }
+  
+}
+/* ---------------------------------------------------------------------------------------------------------- */
+@import url("https://fonts.googleapis.com/css2?family=Exo+2:wght@300;700;900&display=swap");
+
+
+
+
+
+
+
+

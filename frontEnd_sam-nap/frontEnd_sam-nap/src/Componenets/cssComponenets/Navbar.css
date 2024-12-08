@@ -1,0 +1,107 @@
+.navbar {
+  background-color: #EDF1D6;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.2rem;
+  position: sticky;
+  top: 0;
+  z-index: 999;
+  font-family: "Henny Penny", cursive;
+}
+.navbar-brand {
+  margin-left: auto;
+  margin-right: 1rem;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 80px;
+  width: 100%;
+  max-width: 1300px;
+  margin: 0 auto;
+  padding: 0 50px;
+}
+
+.navbar-logo {
+  color: #000;
+  justify-self: flex-start;
+  cursor: pointer;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+  margin-left: 24px;
+  font-weight: bold;
+  text-decoration: none;
+/* font-family: American Typewriter, serif; */
+font-family: lobater;
+width: 120px;
+height: 100px;
+
+/* border: 1px solid black;
+border-radius: 100px; */
+}
+
+.nav-menu {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  text-align: center;
+  margin-right: -22px;
+  
+}
+
+.nav-item {
+  height: 50px;
+ 
+}
+
+.nav-links {
+  color: #000;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  height: 60%;
+  font-size: 0.9rem;
+  
+}
+
+.menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 660px) {
+  .navbar-container {
+    padding: 0 30px;
+  }
+
+  .nav-menu {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    height: 90vh;
+    position: absolute;
+    top: 41px;
+    left: -100%;
+    opacity: 1;
+    transition: all 0.5s ease;
+    margin-left: -50px;
+    padding-top: 40px;
+  }
+
+  .nav-menu.active {
+    background: #fff;
+    left: 0;
+    opacity: 1;
+    transition: all 0;
+    
+  }
+  .menu-icon {
+  display:block;
+  }
+ 
+}

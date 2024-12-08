@@ -1,0 +1,6 @@
+npm install
+npm install react-router-dom
+npm i axios
+npm i react-icons
+npm i @fortawesome/free-solid-svg-icons
+npm i @fortawesome/react-fontawesome
